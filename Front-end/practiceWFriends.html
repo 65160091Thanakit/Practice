@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <style>
+         *{
+                font-family: 'Roboto';
+            }
+      body {
+        margin: 0%;
+      }
+      .border {
+        border: transparent solid;
+      }
+      .btn {
+        background-color: whitesmoke;
+        border: none;
+        height: 100%;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all 0.3s;
+        font-size: large;
+        font-weight: 500;
+        padding: 20px 50px 20px 50px;
+      }
+      .btn:hover {
+        background-color: gray;
+        transition: all 0.3s;
+      }
+      a {
+        text-decoration: none;
+        color: black;
+      }
+      .hero {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 150px 0 150px 0;
+        background-color: #666666;
+        background-image: url("https://cdn.pixabay.com/photo/2013/03/19/23/07/easter-bunny-95096_960_720.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        filter: grayscale(60%);
+      }
+      .circle {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+      }
+      .card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        max-width: 400px;
+        min-width: 400px;
+        
+      }
+    </style>
+  </head>
+  <body>
+    <header
+      class="border"
+      style="
+        display: flex;
+        justify-content: space-between;
+        padding-left: 50px;
+        padding-right: 50px;
+        height: 60px;
+      "
+    >
+      <div class="border" style="display: flex; align-items: center">logo</div>
+      <div class="border">
+        <ul
+          style="
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+          "
+        >
+          <a href="">home</a>
+          <a href="">product</a>
+          <a href="">prizing</a>
+          <a href="">contact us</a>
+        </ul>
+      </div>
+    </header>
+    <section class="border hero">
+      <h1>WE help your business</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <button class="btn">Learn MORE</button>
+    </section>
+    <section class="border">
+      <div class="border" style="display: flex; justify-content: center;">
+        <h1>Our Product</h1>
+      </div>
+      <div
+        class="border"
+        style="
+          display: flex;
+          justify-content: center;
+          align-items: start;
+          gap: 10px;
+          padding: 10px 150px 0px 150px;
+        "
+      >
+        <div class="border card ">
+          <img
+            class="border circle"
+            src="https://picsum.photos/seed/picsum/200/300"
+            alt=""
+          />
+          <h1>SEO</h1>
+          <p>
+            Lorem ipsum dolor,repellendus rerum sapiente nihil reprehenderit
+            laboriosam quasi dignissimos est provident nostrum incidunt
+            excepturi ducimus commodi quo. Maxime, minima?
+          </p>
+        </div>
+        <div class="border card">
+          <img
+            class="border circle"
+            src="https://picsum.photos/seed/picsum/200/300"
+            alt=""
+          />
+          <h1>SEO</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat
+            saepe nulla, magnam repellendus rerum sapiente nihil reprehenderit
+            laboriosam quasi dignissimos est provident nostrum incidunt
+            excepturi ducimus commodi quo. Maxime, minima?
+          </p>
+        </div>
+        <div class="border card">
+          <img
+            class="border circle"
+            src="https://picsum.photos/seed/picsum/200/300"
+            alt=""
+          />
+          <h1>SEO</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat
+            saepe nulla,
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
