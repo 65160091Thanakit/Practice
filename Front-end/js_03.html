@@ -1,0 +1,56 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<p>คลิกที่ปุ่ม "คลิกที่นี่ JS1.1" จะแสดงข้อความ My name is และตามด้วยชื่อของตนเอง</p>
+<button class="btn btn-primary"  id="btn1" onclick="javascript1()" >คลิกที่นี่ js 1.1</button>
+<p>คลิกที่ปุ่ม "คลิกที่นี่ JS1.2" จะแสดงกล่องข้อความให้บันทึกข้อความ และแสดงจำนวนตัวอักษรในข้อความนั้น</p>
+<button class="btn btn-primary"  id="btn2" onclick="javascript2()" >คลิกที่นี่ js 1.2</button>
+
+<!-- Coding JavaScript 2 here!!!! -->
+ <script>
+    function javascript1(){
+        alert("This is the message");
+    }
+    function javascript2(){
+        let uInput= prompt('please enter your words')
+        alert('จำนวนCHaracterของ'+uInput+'='+uInput.length)
+    }
+    //   let FnameOri
+    //   let LnameOri
+    //   let LFLN
+    //   function javascript1(){
+            
+    //         let FirstName = prompt('Insert Your FirstName')
+    //         document.getElementById('str1').innerText = "FirstName :"+FirstName
+    //         FnameOri =FirstName
+    //         let LastName = prompt('Insert Your LastName')
+    //         document.getElementById('str2').innerText = "LastName :"+LastName
+    //         LnameOri = LastName
+    //         let length = FirstName.length+LastName.length
+    //         document.getElementById('str3').innerText = "String length :"+length
+    //         LFLN = length.toString();
+    //         document.getElementById('btn2').innerText = 'Hide';
+    //         document.getElementById('btn2').disabled = false;
+
+    //   }
+    //   function javascript_lev2(){
+    //         $("#display").slideToggle("fast");
+
+    //   }
+    //   function javascript3(){
+    //         if(document.getElementById('btn2').innerText === 'Hide'){
+    //               document.getElementById('btn2').innerText = 'Show';
+    //               document.getElementById('str1').innerText = "FirstName :" + 'x'.repeat(FnameOri.length);
+    //               document.getElementById('str2').innerText = "LastName :" + 'x'.repeat(LnameOri.length);
+    //               document.getElementById('str3').innerText = "String length :" + 'x'.repeat(LFLN.length);
+
+    //         }else{
+    //               document.getElementById('btn2').innerText = 'Hide';
+    //               document.getElementById('str1').innerText = "FirstName:"+FnameOri
+    //               document.getElementById('str2').innerText = "LastName:"+LnameOri
+    //               document.getElementById('str3').innerText = "String length :"+LFLN
+
+    //         }
+    //   }
+ </script>
+
+<!-- Coding JavaScript 2 here!!!! -->
